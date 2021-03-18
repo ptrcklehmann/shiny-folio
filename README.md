@@ -141,8 +141,6 @@ $secondary-color: #00cdac;
 
 ## Deployment 📦
 
-Once you have done with your setup. You need to put your website online!
-
 I highly recommend to use [Netlify](https://netlify.com) to achieve this on the EASIEST WAY
 
 
