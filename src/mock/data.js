@@ -28,62 +28,62 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'ORA-ARTS.png',
+    title: 'ORA ARTS prototype',
+    info: 'ORA in the only platform connecting artists, curators, institutions, galleries and collectors around a cooperative system.',
+    info2: 'Built with Reaact.js, Node.js, Express.js, MongoDB',
+    url: 'https://ora-art-prototype.herokuapp.com/',
+    repo: 'https://github.com/ORA-Arts/ora-prototype', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'lavva.png',
+    title: 'LAVVA',
+    info: 'Relaxing in-browser Javascript game using canvas html element and DOM manipulation',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://ptrcklehmann.github.io/lavva/',
+    repo: 'https://github.com/ptrcklehmann/lavva', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'project.jpg',
+  //   title: '',
+  //   info: '',
+  //   info2: '',
+  //   url: '',
+  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'ptrcklehmann@gmail.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/ptrcklehmann',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/ptrcklehmann',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/ptrcklehmann',
     },
   ],
 };
