@@ -21,7 +21,7 @@ export default () => {
       </Helmet>
       <section id="hero" className="jumbotron">
         <Container>
-          <Fade bottom duration={1000} delay={500} distance="30px">
+          <Fade cascade bottom duration={1000} delay={500} distance="30px">
             <h1 className="hero-title text-center">
               Sorry, this path does not exist{' '}
               <span role="img" aria-label="emoji">

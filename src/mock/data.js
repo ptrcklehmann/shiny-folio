@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'Solution-driven Full Stack Developer adept at contributing to highly collaborative work environment, finding solutions and determining customer satisfaction. Proven experience developing consumer-focused websites using HTML, CSS, React.js and JavaScript. Built products for desktop and mobile app users over 2+ years, meeting highest standards for web design, user experience, best practices and speed. Designed and developed web applications across multiple APIs, third-party integrations and databases.',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.linkedin.com/in/ptrcklehmann/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAAAzU7_4BidFY8RQlzjpHtFROQ-5C4LBXNII,1635451630893)/', // if no resume, the button will not show up
+  resume: '/resume', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA

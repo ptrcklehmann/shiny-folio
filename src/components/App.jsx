@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from 'react';
+import { Switch, Route } from 'react-router-dom';
 import Hero from './Hero/Hero';
 import About from './About/About';
 import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
+import Resume from './Resume/Resume'
+
+
 
 import { PortfolioProvider } from '../context/context';
 
@@ -25,13 +29,17 @@ function App() {
   }, []);
 
   return (
-    <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
-      <Hero />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
-    </PortfolioProvider>
+    
+      <Switch>
+        <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
+          <Hero />
+          <About />
+          <Projects />
+          <Contact />
+          <Footer />
+        </PortfolioProvider>
+        <Route exact path="/resume" component={Resume} />
+      </Switch>
   );
 }
 
